@@ -48,4 +48,12 @@ func getArticle(w http.ResponseWriter, r *http.Request) {
 			break
 		}
 	}
+
+	// using for range
+
+	// for _, article := range Articles {
+	// 	if article.Id == key {
+	// 		json.NewEncoder(w).Encode(article)
+	// 	}
+	// }
 }
